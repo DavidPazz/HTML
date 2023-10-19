@@ -16,16 +16,16 @@
         <tbody>
             <tr>
                 <td>
-                    <form action="">
+                    <form method="get" action="home.html"> <!--get mostra senha e post não mostra-->
                         <label for="input_nome">
-                            Nome de usuário: <input id="input_nome" type="text">
+                            Nome de usuário: <input id="input_nome" name="input_nome" type="text">
                         </label>
                     
                         <label for="input_pass">
-                            informe sua senha: <input id="input_pass" type="password">
+                            informe sua senha: <input id="input_pass" name="input_pass" type="password">
                         </label>
                     
-                        <input type="button" id="Input_button" value="Enviar">
+                        <button type="submit">Enviar</button>
                     </form>
                 </td>
             </tr>
