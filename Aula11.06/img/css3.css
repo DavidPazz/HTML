@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    background-color: chartreuse;
+    color: blue;
+}
+
+div{
+    background-color: orange;
+    color: aliceblue;
+}
+
+p {
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 32px;
+
+}
+
+.tamanho {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.comportameto {
+    display: inline-block;
+
+}
