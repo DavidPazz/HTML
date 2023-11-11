@@ -23,7 +23,7 @@ html {
 
 #navegacao {
     display: inline-block;
-    margin-left: 50%;
+    margin-left: 60%;
     text-transform:capitalize ;
 }
 
@@ -66,6 +66,6 @@ footer > h4 {
 .link:hover{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    color:#FF2400;
+    color:#7F00FF;
     
 }
