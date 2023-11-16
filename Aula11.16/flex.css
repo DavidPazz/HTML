@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-header,.container-main,.container-footer {
+    width: 80%;
+    height: 100vh;
+
+}
+
+.container-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.container-header {
+    background:url(img/davizin.jpg) no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 100vh;
+    color: white;
+}
+
+.container-nav {
+    padding:0px 15px;
+    background-color: #212529;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.container-ul {
+    display: flex;
+
+}
+
+.container-main {
+    width: 80%;
+
+}
+
+.container-section {
+    display: flex;
+    justify-content: space-between;
+    
+}
