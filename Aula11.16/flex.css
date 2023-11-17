@@ -48,3 +48,16 @@
     justify-content: space-between;
     
 }
+
+.container-product-father{
+    display: flex;
+   
+}
+
+.container-product {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    
+
+}
