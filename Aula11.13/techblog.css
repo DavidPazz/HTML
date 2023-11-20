@@ -11,7 +11,7 @@ body {
 
 /* Area do cabeçalho*/
 #area-cabecalho {
-    background-color: #F7B600;
+    background-color:tomato;
     padding: 15px;
     text-align: center;
 }
@@ -55,14 +55,14 @@ body {
 .postagem-lateral {
     font-size: 0.8em;
     padding: 10px;
-    border-bottom: 1px dotted #594317;
+    border-bottom: 1px dotted violet;
 }
 
 #area-rodape {
     clear: both;
     text-align: center;
     padding: 15px;
-    background-color: #594317;
+    background-color:blueviolet;
     color: #DFE0DF;
 }
 
@@ -75,7 +75,7 @@ h1 {
 }
 
 h2 {
-    color: #F7B600;
+    color:darkmagenta;
     margin-bottom: 15px;
     text-transform: uppercase;
 
@@ -105,7 +105,7 @@ a {
 }
 
 .cor-b {
-    color: #F7B600;
+    color: blueviolet;
 }
 
 .data-postagem {
