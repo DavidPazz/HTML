@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.templete1 {background-color:white; grid-area: um;}
+.templete2 {background-color: yellow; grid-area: dois;}
+.templete3 {background-color: white; grid-area: tres;}
+.templete4 {background-color:blue ; grid-area: quatro;}
+.templete5 {background-color:white; grid-area: cinco;}
+.templete6 {background-color: yellow; grid-area: seis;}
+.templete7 {background-color: red; grid-area:sete;}
+.templete8 {background-color: white; grid-area: oito;}
+.templete9 {background-color: black; grid-area: nove;}
+
+body {
+    background-color: antiquewhite;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns:23% 25% 12% 12% 26%;
+    grid-template-rows: 8% 30% 30% 29%;
+
+}
+
+  
