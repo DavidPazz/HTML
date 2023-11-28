@@ -17,7 +17,7 @@
 
 .fade:hover {
     opacity: 1.0;
-    transition: ;
+    transition:0.5 ;
 }
 
 .grow {
