@@ -64,6 +64,6 @@
 }
 
 .circle:hover {
- border-radius: (100%);
- transition: 0.5s;
+    border-radius: 100%;
+    transition: 0.5s;
 }
