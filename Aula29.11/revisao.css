@@ -3,3 +3,77 @@
     padding: 0px;
     box-sizing: border-box;
 }
+h1 {
+    margin:20px 0px ;
+    background-color: chartreuse;
+}
+/*inicio layout flex*/
+.flex-header{
+    background-color: #434343;
+    width: 100vw;
+    height: 80px;
+    color: #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+    
+}
+
+.flex-div-container  {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 300px;
+}
+
+.flex-div-section {
+    width: 30%;
+    height: 90%;
+    background-color:aliceblue;
+    
+}
+
+#flex-footer {
+    background-color: blue;
+    width: 100vw;
+    height: 200px;
+}
+
+/*Fim layout flex*/
+
+/*Inicio layout grid*/
+
+.grid-container01 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 80px 300px  200px;
+    grid-gap: 10px;
+}
+
+#one{
+    grid-column-start:1; grid-column-end:4 ;
+    background-color: aqua;
+
+}
+
+#two {
+    background-color: brown;
+}
+
+#three {
+    background-color: cadetblue;
+}
+
+#four{
+    background-color: coral;
+}
+
+#five {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: crimson;
+}
+/*Fim layout grid*/
