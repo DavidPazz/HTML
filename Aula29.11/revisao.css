@@ -44,7 +44,7 @@ h1 {
 
 /*Fim layout flex*/
 
-/*Inicio layout grid*/
+/*Inicio layout grid sem area*/
 
 .grid-container01 {
     display: grid;
@@ -56,6 +56,9 @@ h1 {
 #one{
     grid-column-start:1; grid-column-end:4 ;
     background-color: aqua;
+    display: grid;
+    grid-template-columns:100px 1fr 100px;
+    align-items: center;
 
 }
 
@@ -76,4 +79,39 @@ h1 {
     grid-column-end: 4;
     background-color: crimson;
 }
-/*Fim layout grid*/
+
+#menu-h2 {
+    grid-column-start: 3;
+}
+/*Fim layout grid sem area*/
+
+/*inicio grid com area*/
+.grid-container02{
+    display: grid;
+    width: 100vw;
+    grid-template-rows: 80px 300px 200px;
+    gap: 15px;
+    grid-template-areas: 
+    'um um um'
+    'dois tres quatro'
+    'cinco cinco cinco';
+}
+
+.um{
+    background-color: chartreuse; grid-area: um;
+    display: grid;
+    grid-template-areas: 'logo menu';
+}
+.dois{background-color: chocolate; grid-area: dois;}
+.tres{background-color: blue; grid-area: tres;}
+.quatro{background-color: darkgoldenrod; grid-area: quatro;}
+.cinco{background-color: blueviolet; grid-area: cinco;}
+
+.grid-h2-01 {
+    grid-area: logo;
+}
+.grid-h2-02 {
+    grid-area: menu;
+}
+
+/*fim do grid com area*/
