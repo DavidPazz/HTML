@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 h1 {
     margin:20px 0px ;
     background-color: chartreuse;
@@ -94,7 +95,7 @@ h1 {
     grid-template-rows: 80px 300px 200px;
     gap: 15px;
     grid-template-areas: 
-    'um um um'
+    'um    um    um'
     'dois tres quatro'
     'cinco cinco cinco';
 }
