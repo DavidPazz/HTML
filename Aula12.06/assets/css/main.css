@@ -1,0 +1,88 @@
+                    /*INDEX.HTML*/
+
+/* .width{ 
+    max-width: 500px;
+    height: 300px;
+    border: 2px dotted black;
+}
+
+.row{
+    height: 100%;
+}
+
+.col-6, .col-3 {
+    height: 25px;
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+}
+
+.bi.bi-bell, .bi.bi-arrow-through-heart {
+    font-size: 40px;
+    color: green;
+    margin: 2px;
+}
+*/
+
+/*
+footer {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.largura {
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+strong{
+    color: orange;
+}
+
+.main {
+    height: 
+    520px;
+}
+
+*/
+        /*Atividade de casa, feita na escola 12/07*/
+        
+body { 
+    background-image: url(); 
+    background-size: cover;
+ }
+
+.main {
+    height: 100vh;
+}
+
+.card {
+    max-width: 18rem;
+    height: 65%;
+    opacity: 75%;
+}
+
+.card-body {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.icon-size {
+    font-size: 55px;
+}
+
+
