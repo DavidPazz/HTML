@@ -5,7 +5,9 @@
     color: #ffffff;
 }
 
-body{ width: 100vw; height: 100vh; background-color: #000000; }
+body{ width: 100vw; 
+    height: 100vh; 
+    background-color:darkblue; }
 
 main{
     margin: 10% auto;
@@ -45,7 +47,7 @@ main{
 
 .div__bg1{ 
     border: 2px solid #ffffff;
-    background-color: yellow;
+    background-color:black;
     width: 80px;
     height: 80px;
     background-image: url(./imagens/questao04.01.jpg);
@@ -55,7 +57,7 @@ main{
 }
 .div__bg2{ 
     border: 2px solid #ffffff;
-    background-color: yellow;
+    background-color:black;
     background-position: center;
     width: 80px;
     height: 80px;
@@ -65,7 +67,7 @@ main{
 }
 .div__bg3{
     border: 2px solid #ffffff;
-    background-color: yellow; 
+    background-color: black; 
     background-position: center;
     width: 80px;
     height: 80px;
@@ -74,7 +76,7 @@ main{
     border-radius: 100%;
 }
 .div__bg4{ 
-    background-color: yellow;
+    background-color:black;
     border: 2px solid #ffffff;
     background-position: center;
     width: 80px;
@@ -86,7 +88,7 @@ main{
 
 h2{
     padding-top: 15px;
-    background-color:aqua;
+    background-color:coral;
     width: 300px;
     height: 60px;
     border-radius: 30px;
