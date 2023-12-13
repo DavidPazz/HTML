@@ -22,7 +22,7 @@ header div.hr {
     margin-bottom: 20px; 
 }
 
-header h2 span { color: #8c57f1; }
+header, h2, span { color: #8c57f1; }
 
 a.active { 
     background-color: #8c57f1!important; 
@@ -30,9 +30,9 @@ a.active {
 }
 
 ul li a { 
-    color: #fff!important; 
     font-weight: 500; 
     font-size: 14px; 
+    color: #fff!important; 
 }
 
 main.container { 
@@ -76,6 +76,4 @@ p.card-text {
     font-weight: 500; 
 }
 
-a#view { 
-    color: #8c57f1; 
-    font-size: 14px; }
+
